@@ -1,12 +1,11 @@
 "use client";
 
-import { ArchPlan, ArchVisualizer, UserActions } from "@/components";
+import { ArchPlan, ArchVisualizer } from "@/components";
 
 export default function Home() {
   return (
     <main className="grid grid-cols-3 gap-3 min-h-screen bg-white p-6">
       <div className="relative bg-slate-200 col-span-2 rounded-lg shadow-lg p-6">
-        <UserActions />
         <ArchVisualizer />
       </div>
       <div className="bg-slate-100 rounded-lg shadow-lg p-6">
